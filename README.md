@@ -1,4 +1,4 @@
-## Olá!!! E sou o Matheus Souza
+## Olá!!! Eu sou o Matheus Souza
 
 <div align="center">
   <a href="https://github.com/ttszin">
