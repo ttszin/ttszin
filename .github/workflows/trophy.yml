@@ -1,14 +1,12 @@
 name: Generate trophy card
 
 on:
-  schedule: # execute every 12 hours
+  schedule:
     - cron: "* */12 * * *"
-
   workflow_dispatch:
-
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
@@ -18,20 +16,17 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate trophy.svg
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
-        with:
-          username: ${{ github.repository_owner }}
-          file: dist/trophy.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          theme: dark_lover
-          max-rows: 1
-          margin-width: 8
-          margin-height: 8
-          no-background: false
-          no-frame: false
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: push trophy.svg to the output branch
+      - name: Create dist directory
+        run: mkdir -p dist
+
+      - name: Download Trophy SVG
+        # Este comando baixa a imagem com o seu tema e configurações e salva como trophy.svg
+        run: curl -o dist/trophy.svg "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=dark_lover&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false"
+
+      - name: Push trophy.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: trophy-output
