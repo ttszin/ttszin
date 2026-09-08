@@ -65,10 +65,7 @@
 
 <div data-importer="stats" align="center">
   <img src="https://streak-stats.demolab.com?user=ttszin&locale=en&mode=daily&theme=midnight-purple&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=ttszin&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" alt="Estatísticas do GitHub" height="150" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ttszin&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" alt="Linguagens mais usadas" height="150" />
-  </p>
+  <img src="https://metrics.lecoq.io/ttszin?config.timezone=America%2FSao_Paulo" alt="GitHub Metrics" />
 </div>
 
 ###
