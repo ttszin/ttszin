@@ -65,7 +65,9 @@
 
 <div data-importer="stats" align="center">
   <img src="https://streak-stats.demolab.com?user=ttszin&locale=en&mode=daily&theme=midnight-purple&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="metrics.svg" alt="Metrics" />
+  <img src="https://ttszin.github.io/ttszin/assets/trophy.svg" alt="GitHub Trophies" />
+  <!-- Se quiser as métricas descomentar abaixo ⬇️ -->
+  <!-- <img src="metrics.svg" alt="Metrics" /> -->
 </div>
 
 ###
