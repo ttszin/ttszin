@@ -65,7 +65,7 @@
 
 <div data-importer="stats" align="center">
   <img src="https://streak-stats.demolab.com?user=ttszin&locale=en&mode=daily&theme=midnight-purple&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://metrics.lecoq.io/ttszin?config.timezone=America%2FSao_Paulo" alt="GitHub Metrics" />
+  <img src="https://streak-stats.demolab.com/?user=ttszin&theme=radical&hide_border=true&background=0D1117" alt="GitHub Streak" />
 </div>
 
 ###
